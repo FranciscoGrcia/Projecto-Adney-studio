@@ -110,10 +110,14 @@ section.cardapio{
 
 }
 
-.textoCardapio{
+.textoCardapio {
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+.paragrafo{
+    font-size: 13px;
 }
 
 .containerCardapio{
@@ -125,7 +129,7 @@ section.cardapio{
 
 .itemCardapio{
     max-width: 300px;
-    height: 380px;
+    height: 410px;
     box-shadow: 0 0 5px;
     border-radius: 10px 10px 0 0;
 }
@@ -168,7 +172,7 @@ section.cardapio{
     font-size: 13px;
     font-weight: 600;
     border: 2px solid #e50914;
-    border-radius: 5px;
+    border-radius: 8px;
     color: #e50914;
 }
 
