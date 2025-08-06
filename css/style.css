@@ -7,7 +7,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .titulo{
@@ -24,12 +24,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: grey;
+    background-color: #2d2d2d;
     padding: 20px;
 }
 
 .menu h2{
-    color: red;
+    color:#e50914;
     font-weight: 600;
 }
 
@@ -40,17 +40,17 @@ body{
 .menu ul li a{
     padding: 0 20px;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 .menu ul li a:hover{
-    color: red;
+    color: #e50914;
     transition: .5s;
 }
 
 .btnPedido{
-    background-color: red;
-    color: #fff;
+    background-color: #e50914;
+    color: #ffffff;
     text-decoration: none;
     margin-right: 30px;
     font-size: 15px;
@@ -74,7 +74,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: #ffffff;
 }
 
 .textoCabecalho h1{
@@ -95,10 +95,9 @@ input {
 .btnSearch{
     font-size: 15px;
     padding: 8px;
-    background-color: red;
+    background-color: #e50914;
     border: 0;
-    color: #fff;
-    font-weight: 500;
+    color: #ffffff;
 }
 
 /*===CARDAPIO===*/
@@ -121,38 +120,58 @@ section.cardapio{
 }
 
 .itemCardapio{
-    max-width: 350px;
-    height: 400px;
+    max-width: 300px;
+    height: 380px;
     border: 1px solid black;
     border-radius: 5px;
 }
 
 .imagenCardapio img{
     width: 100%;
-    height: 200px;
+    height: 180px;
+}
+
+.ConteudoCardapio{
+    padding: 20px;
 }
 
 .tituloCardapio{
     display: flex;
     align-items: center;
-    margin: ;
 }
 
 .tituloCardapio h3{
     font-size: 20px;
+    padding: 4px 0;
 }
 
 .tituloCardapio i{
     font-size: 13px;
-    
 }
 
-.textoItemCardapio{
-
-}
+.textoItemCardapio{}
 
 .preco{
-    color: red;
+    color: rgba(255, 0, 0, 0.726);
+    padding: 5px 0;
+}
+
+.btnCardapio {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    width: 250px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 2px solid #e50914;
+    border-radius: 5px;
+    color: #e50914;
+}
+
+.btnCardapio:hover{
+    background-color: #e50914;
+    color: #ffffff;
+    transition: 0.1s;
 }
 
 
