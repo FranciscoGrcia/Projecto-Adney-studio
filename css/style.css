@@ -134,14 +134,14 @@ section.cardapio{
 
 .itemCardapio{
     max-width: 350px;
-    height: 500px;
+    height: 530px;
     box-shadow: 0 0 5px;
     border-radius: 10px 10px 0 0;
 }
 
 .imagenCardapio img{
     width: 100%;
-    height: 250px;
+    height: 300px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -162,7 +162,7 @@ section.cardapio{
 }
 
 .paragrafo{
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 
@@ -189,16 +189,16 @@ section.cardapio{
 }
 
 .btnCardapio {
-    text-align: center;
-    padding: 10px;
+    padding: 12px 0;
     margin: 22px 0;
-    width: 250px;
+    width: 300px;
     font-size: 13px;
     font-weight: 600;
     border: 2px solid #e50914;
     border-radius: 8px;
     color: #e50914;
     background-color: #ffffff;
+    
 }
 
 .btnCardapio:hover{
