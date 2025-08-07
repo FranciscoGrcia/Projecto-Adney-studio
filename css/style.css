@@ -1,9 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
     }
 
 
@@ -67,7 +64,7 @@ body{
 
 .cabecalho{
     height: 915px;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../imagens/restaurante.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../imagens/essaagora.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -92,21 +89,32 @@ body{
 }
 
 input {
-    font-size: 14px;
+    font-size: 17px;
     padding: 8px;
+    border: none;
+    border-radius: 5px;
 }
 
 .btnSearch{
-    font-size: 15px;
-    padding: 8px;
+    font-size: 17px;
+    margin: 0 5px;
+    padding: 10px;
     background-color: #e50914;
     border: 0;
+    border-radius: 5px;
     color: #ffffff;
+}
+
+.btnSearch:hover{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: 1.10;
 }
 
 /*===CARDAPIO===*/
 section.cardapio{
     padding: 30px;
+    background-color: #ffffff69;
 
 }
 
@@ -116,27 +124,24 @@ section.cardapio{
     text-align: center;
 }
 
-.paragrafo{
-    font-size: 13px;
-}
 
 .containerCardapio{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 35px;
 }
 
 .itemCardapio{
-    max-width: 300px;
-    height: 410px;
+    max-width: 350px;
+    height: 500px;
     box-shadow: 0 0 5px;
     border-radius: 10px 10px 0 0;
 }
 
 .imagenCardapio img{
     width: 100%;
-    height: 180px;
+    height: 250px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -147,39 +152,59 @@ section.cardapio{
 .tituloCardapio{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 5px;
 }
 
 .tituloCardapio h3{
-    font-size: 20px;
-    padding: 4px 0;
+    font-size: 22px;
+    padding: 10px 0;
 }
 
-.tituloCardapio i{
-    font-size: 13px;
+.paragrafo{
+    padding: 20px 0;
 }
 
 
-.preco{
+.emoji{
+    font-size: 25px;
+}
+
+.saberMais {
     color: rgba(255, 0, 0, 0.726);
-    padding: 5px 0;
+    padding: 9px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #e50914;
+    font-weight: 600;
+    font-size: small;
+    border-radius: 5px;
+
+}
+
+.saberMais:hover{
+    transform: scale(1.10);
+    box-shadow: 0px 0px 5px #e50914;
+    transition: .1s;
 }
 
 .btnCardapio {
     text-align: center;
     padding: 10px;
-    margin: 20px 0;
+    margin: 22px 0;
     width: 250px;
     font-size: 13px;
     font-weight: 600;
     border: 2px solid #e50914;
     border-radius: 8px;
     color: #e50914;
+    background-color: #ffffff;
 }
 
 .btnCardapio:hover{
     background-color: #e50914;
     color: #ffffff;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 
 
