@@ -12,7 +12,7 @@ body{
 
 .titulo{
     padding-top: 20px;
-    font-size: 33px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 .menu h2{
-    color:#e50914;
+    color: RGB(80, 100, 100);
     font-weight: 600;
 }
 
@@ -38,24 +38,25 @@ body{
 }
 
 .menu ul li a{
-    padding: 0 20px;
+    padding: 25px;
     text-decoration: none;
     color: #ffffff;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .menu ul li a:hover{
-    color: #e50914;
-    transition: .5s;
+    color: RGB(100, 110, 110);;
 }
 
 .btnPedido{
-    background-color: #e50914;
+    background-color: 	RGB(10, 40, 60);
     color: #ffffff;
     text-decoration: none;
     margin-right: 30px;
     font-size: 15px;
     padding: 10px 15px;
+    border: 1px solid #000000;
     border: 0;
     border-radius: 20px;
     font-weight: 500;
@@ -63,7 +64,7 @@ body{
 
 
 .cabecalho{
-    height: 915px;
+    height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../imagens/essaagora.jpg);
     background-position: center;
     background-size: cover;
@@ -99,7 +100,7 @@ input {
     font-size: 17px;
     margin: 0 5px;
     padding: 10px;
-    background-color: #e50914;
+    background-color: RGB(10, 40, 60);
     border: 0;
     border-radius: 5px;
     color: #ffffff;
@@ -115,13 +116,13 @@ input {
 section.cardapio{
     padding: 30px 0;
     margin: auto;
-    max-width: 80%;
     background-color: #ffffff69;
 }
 
 .textoCardapio {
     padding: 10px;
     margin: 10px;
+    font-size: 17px;
     text-align: center;
 }
 
@@ -130,20 +131,25 @@ section.cardapio{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 35px;
+    gap: 30px;
 }
 
 .itemCardapio{
     max-width: 310px;
     height: 430px;
     box-shadow: 0 0 5px;
-    border-radius: 10px 10px 0 0;
+
+}
+
+.itemCardapio:hover{
+    transform: scale(1.01);
+    transition: .2s;
 }
 
 .imagenCardapio img{
     width: 100%;
     height: 200px;
-    border-radius: 10px 10px 0 0;
+
 }
 
 .ConteudoCardapio{
@@ -171,11 +177,11 @@ section.cardapio{
 }
 
 .btnsaberMais {
-    color: rgba(255, 0, 0, 0.726);
+    color: RGB(10, 40, 60);
     padding: 8px;
     text-decoration: none;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: RGB(10, 40, 60);
     font-weight: 700;
     font-size: 12px;
     border-radius: 5px;
@@ -183,30 +189,70 @@ section.cardapio{
 
 .saberMais:hover{
     transform: scale(1.10);
-    box-shadow: 0px 0px 5px #e50914;
+    box-shadow: 0px 0px 5px RGB(10, 40, 60);
     transition: .1s;
 }
 
 .btnCardapio {
-    text-align: center;
     margin: 15px;
     padding: 5px;
-    
+    text-align: center;
 }
 
 .btnCardapio button{
-    padding: 10px 0;
-    width: 250px;
-    border: 2px solid #e50914;
+    padding: 10px;
+    border: 2px solid RGB(10, 40, 60);
     border-radius: 5px;
     font-weight: 600;
+    width: 250px;
+    background-color: #ffffff;
+
 }
 
 .btnCardapio button:hover{
-    background-color: #e50914;
+    background-color: RGB(10, 40, 60);
     color: #ffffff;
     transition: 0.5s;
 }
+
+/*===Section Sobre===*/
+section.sobre{
+    padding: 30px;
+}
+.containerSobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 65%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.imagemSobre img{
+    max-width: 650px;
+    height: 470px;
+}
+
+.textoSobre{
+    line-height: 20px;
+    padding: 0px 20px;
+    padding-top: 40px;
+    font-size: 17px;
+    box-shadow: 0px 0px 10px #2d2d2d;
+}
+
+
+.btnSobre{
+    margin: 20px 0;
+    padding: 15px 30px;
+    background-color: RGB(10, 40, 60);
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
 
 
 
