@@ -222,11 +222,12 @@ section.cardapio{
 section.sobre{
     padding: 30px;
 }
+
 .containerSobre{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
