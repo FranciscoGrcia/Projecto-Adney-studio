@@ -7,8 +7,6 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #000000;
-    color: #d7d6d6;
 }
 
 .titulo{
@@ -18,6 +16,7 @@ body{
     color: RGB(10, 40, 60);
 
 }
+
 
 .container{
     margin: auto;
@@ -217,7 +216,6 @@ section.sobre{
 .imagemSobre img{
     height: 500px;
     border-radius: 8px;
-    padding: 30px 0;
 }
 
 .textoSobre{
@@ -247,20 +245,34 @@ section.sobre{
 
 /*====GALERIA====*/
 section#principal {
+}
+
+.conteudoSobre{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #ffffffe7;
-    padding-top: 100px;
-    
+    padding-top: 40px 0px;
 }
 
-.tituloTrabalhos{
-    padding-top: 80px;
-    font-size: 35px;
-    font-weight: 600;
-    text-align: center;
+.tituloGaleria{
+    padding: 30px;
+    margin: 10px 20px;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+
 }
+
+.tituloGaleria::after{
+content: "";
+position: absolute;
+left: 5;     
+width: 30%;
+height: 5px;
+background-color: grey;
+}
+
 
 .info {
     margin: 10px;
@@ -310,7 +322,7 @@ section#principal {
 /*===FORMULÁRIO===*/
 section.formulario{
     padding: 30px;
-    background-color: #262626;
+    background-color: #000000;
     color: #d7d6d6;
 }
 
@@ -372,7 +384,59 @@ form .btn-enviar input:hover {
     transition: .1s;
 }
 
+/*===RODAPÉ===*/
+footer{
+    padding: 20px;
+    background-color: RGB(10, 40, 60);
+    color: #d7d6d6;
 
+}
+
+.conteudoRodape{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.658) ;
+}
+
+.tituloRodape{
+    font-size: 25px;
+    padding: 8px 0;
+}
+
+.links{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.links p{
+    padding: 3px 0;
+    font-size: 18px;
+}
+
+.linksUteis{
+    padding-bottom: 30px;
+}
+
+.sociais {
+    font-size: 30px;
+    margin: 15px 0;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+.sociais a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: #d7d6d6;   
+}
+
+.copy{
+    padding-top: 30px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
 
 
 
