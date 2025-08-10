@@ -13,7 +13,7 @@ body{
 
 .titulo{
     padding-top: 20px;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     color: RGB(10, 40, 60);
 
@@ -59,10 +59,15 @@ body{
     margin-right: 30px;
     font-size: 15px;
     padding: 10px 15px;
-    border: 1px solid #000000;
     border: 0;
     border-radius: 20px;
     font-weight: 500;
+}
+
+.btnPedido:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ffffff;
+    transition-duration: .1s;
 }
 
 
@@ -110,9 +115,9 @@ input {
 }
 
 .btnSearch:hover{
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    transition: 1.10;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #ffffff;
+    transition-duration: .1s;
 }
 
 /*===CARDAPIO===*/
@@ -135,17 +140,16 @@ section.cardapio{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    gap: 10px;
 }
 
 .itemCardapio{
     max-width: 280px;
-    height: 300px;
+    height: 310px;
     box-shadow: 0 0 5px;
     background-color: #000000;
     color: #ffffff;
     border-radius: 10px;
-    gap: 20px;
 }
 
 .itemCardapio:hover{
@@ -172,34 +176,19 @@ section.cardapio{
 .emoji{
     font-size: 70px;
     text-align: center;
-    padding-top: 20px;
-    color: grey;
+    padding-top: 25px;
+    color: #ffffffb3;
 }
 
-.btnsaberMais {
-    color: RGB(10, 40, 60);
-    padding: 8px;
-    text-decoration: none;
-    color: #ffffff;
-    background-color: RGB(10, 40, 60);
-    font-weight: 700;
-    font-size: x-small;
-    border-radius: 5px;
-}
-
-.saberMais:hover{
-    transform: scale(1.10);
-    box-shadow: 0px 0px 5px RGB(10, 40, 60);
-    transition: .1s;
-}
 
 .btnCardapio {
     margin: 20px 0;
+    text-align: center;
 }
 
 .btnCardapio button{
-    padding: 10px;
-    border: 2px solid RGB(10, 40, 60);
+    padding: 13px;
+    border: 0;
     border-radius: 5px;
     font-weight: 600;
     background-color: RGB(10, 40, 60);
@@ -207,30 +196,27 @@ section.cardapio{
 }
 
 .btnCardapio button:hover{
-    background-color: RGB(10, 40, 60);
-    color: #ffffff;
-    transition: 0.5s;
+    box-shadow: 0 0 5px #ffffff;
+    transition-duration: .1s;
 }
 
 /*===Section Sobre===*/
 section.sobre{
     padding: 30px;
-    max-width: 80%;
-
 }
 
 .containerSobre{
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;
-    padding: 0 4%;
-    gap: 20px;
+    margin: auto;
+    gap: 5px;
 }
 
 .imagemSobre img{
     height: 500px;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 30px 0;
 }
 
@@ -238,6 +224,7 @@ section.sobre{
     line-height: 20px;
     padding: 0px 20px;
     font-size: 19px;
+    text-align: justify;
     
 }
 
@@ -250,6 +237,12 @@ section.sobre{
     border-radius: 5px;
     color: #ffffff;
     font-weight: 600;
+}
+
+.btnSobre:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px;
+    transition-duration: .1s;
 }
 
 /*====GALERIA====*/
@@ -313,6 +306,71 @@ section#principal {
     color: #000000;
 }
 
+
+/*===FORMULÁRIO===*/
+section.formulario{
+    padding: 30px;
+    background-color: #262626;
+    color: #d7d6d6;
+}
+
+
+
+
+.tituloForm{
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: 1px solid grey;
+    outline: 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.textarea {
+    resize: none;
+    max-height: 250px;
+}
+
+form label {
+    font-size: 20px;
+    font-weight: 550;
+    padding-top: 5px;
+    margin: 10px 0;
+}
+
+form .btn-enviar input {
+    width: 90px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    background-color: RGB(10, 40, 60);
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 13px grey;
+    transform: scale(1.05);
+    transition: .1s;
+}
 
 
 
