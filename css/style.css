@@ -13,7 +13,7 @@ body{
 
 .titulo{
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
     color: RGB(10, 40, 60);
 
@@ -130,9 +130,10 @@ section.cardapio{
 }
 
 .textoCardapio {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     text-align: center;
+    height: 200px;
 }
 
 
@@ -171,11 +172,12 @@ section.cardapio{
     font-size: 60px;
     text-align: center;
     padding-top: 20px;
-    color: #ffffffb3;
+    color: #ffffffa9;
 }
 
 .paragrafo{
-
+    font-size: 15px;
+    color: #d7d6d6;
 }
 
 
@@ -251,9 +253,9 @@ section.sobre{
 }
 
 .tituloGaleria{
-    padding: 30px;
+    padding: 28px;
     margin: 10px 4%;
-    font-size: 30px;
+    font-size: 28px;
     position: relative;
     display: inline-block;
 
@@ -262,7 +264,7 @@ section.sobre{
 .tituloGaleria::after{
 content: "";
 position: absolute;   
-width: 30%;
+width: 25%;
 height: 5px;
 background-color: grey;
 }
