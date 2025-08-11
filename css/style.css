@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Poppins";
+    font-style: normal;
 }
 
 
@@ -130,7 +132,6 @@ section.cardapio{
 .textoCardapio {
     padding: 10px;
     margin: 10px;
-    font-size: 17px;
     text-align: center;
 }
 
@@ -143,8 +144,8 @@ section.cardapio{
 }
 
 .itemCardapio{
-    max-width: 280px;
-    height: 310px;
+    max-width: 300px;
+    height: 370px;
     box-shadow: 0 0 5px;
     background-color: #000000;
     color: #ffffff;
@@ -160,23 +161,21 @@ section.cardapio{
     padding: 15px;
 }
 
-.tituloCardapio{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .tituloCardapio{
-    font-size: 22px;
+    font-size: 20px;
     padding: 15px 0;
-    text-align: center;
 }
 
 .emoji{
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 20px;
     color: #ffffffb3;
+}
+
+.paragrafo{
+
 }
 
 
@@ -221,7 +220,6 @@ section.sobre{
 .textoSobre{
     line-height: 20px;
     padding: 0px 20px;
-    font-size: 19px;
     text-align: justify;
     
 }
@@ -244,9 +242,6 @@ section.sobre{
 }
 
 /*====GALERIA====*/
-section#principal {
-}
-
 .conteudoSobre{
     display: flex;
     flex-wrap: wrap;
@@ -257,7 +252,7 @@ section#principal {
 
 .tituloGaleria{
     padding: 30px;
-    margin: 10px 20px;
+    margin: 10px 4%;
     font-size: 30px;
     position: relative;
     display: inline-block;
@@ -266,8 +261,7 @@ section#principal {
 
 .tituloGaleria::after{
 content: "";
-position: absolute;
-left: 5;     
+position: absolute;   
 width: 30%;
 height: 5px;
 background-color: grey;
@@ -307,10 +301,10 @@ background-color: grey;
     text-decoration: none;
     color: white;
     background-color: RGB(10, 40, 60);
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 10px;
     text-transform: uppercase;
-    font-size: small;
+    font-size: x-small;
 }
 
 .horario p {
@@ -370,6 +364,7 @@ form label {
 form .btn-enviar input {
     width: 90px;
     margin-top: 10px;
+    margin-bottom: 25px;
     padding: 10px 0px;
     background-color: RGB(10, 40, 60);
     color: #ffffff;
@@ -386,9 +381,9 @@ form .btn-enviar input:hover {
 
 /*===RODAPÉ===*/
 footer{
-    padding: 20px;
-    background-color: RGB(10, 40, 60);
-    color: #d7d6d6;
+    padding: 30px;
+    background-color: RGB(10, 30, 50);
+    color: #d7d6d6dc;
 
 }
 
@@ -400,7 +395,6 @@ footer{
 
 .tituloRodape{
     font-size: 25px;
-    padding: 8px 0;
 }
 
 .links{
@@ -410,7 +404,6 @@ footer{
 
 .links p{
     padding: 3px 0;
-    font-size: 18px;
 }
 
 .linksUteis{
@@ -418,7 +411,7 @@ footer{
 }
 
 .sociais {
-    font-size: 30px;
+    font-size: 33px;
     margin: 15px 0;
     border: 0;
     cursor: pointer;
@@ -428,16 +421,19 @@ footer{
 .sociais a{
     text-decoration: none;
     padding: 0 5px;
-    color: #d7d6d6;   
+    color: #d7d6d6dc;   
 }
 
 .copy{
-    padding-top: 30px;
+    padding-top: 35px;
     text-align: center;
     color: gray;
-    font-size: 18px;
+    font-size: 15px;
 }
 
+.direitos{
+    color: #d7d6d6c2;
+}
 
 
 
