@@ -201,15 +201,13 @@ section.cardapio{
 
 /*===Section Sobre===*/
 section.sobre{
-    padding: 30px;
+   
 }
 
 .containerSobre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    height: 800px;
     margin: auto;
-    gap: 5px;
 }
 
 .imagemSobre img{
