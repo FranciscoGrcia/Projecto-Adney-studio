@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins";
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -40,7 +40,6 @@ body{
     padding: 25px;
     text-decoration: none;
     color: #ffffff;
-    font-weight: 300;
     cursor: pointer;
 }
 
@@ -50,7 +49,7 @@ body{
 }
 
 .menu ul li a:hover{
-    color: RGB(100, 110, 110);;
+    color: grey;
 }
 
 .btnPedido{
@@ -59,7 +58,7 @@ body{
     text-decoration: none;
     margin-right: 30px;
     font-size: 15px;
-    padding: 10px 15px;
+    padding: 7px 15px;
     border: 0;
     border-radius: 20px;
     font-weight: 500;
@@ -89,8 +88,8 @@ body{
 }
 
 .textoCabecalho h1{
-    font-size: 60px;
-    padding: 10px;
+    font-size: 45px;
+    padding: 5px;
 }
 
 .textoCabecalho p{
@@ -190,13 +189,13 @@ section.cardapio{
     padding: 10px;
     border: 0;
     border-radius: 5px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: RGB(10, 40, 60);
     color: #ffffff;
 }
 
 .btnCardapio button:hover{
-    box-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 8px grey;
     transition-duration: .1s;
 }
 
@@ -206,7 +205,6 @@ section.sobre{
 }
 
 .containerSobre{
-    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
