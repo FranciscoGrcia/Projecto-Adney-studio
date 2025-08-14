@@ -50,9 +50,6 @@ body{
     margin: 15px;
 }
 
-.menu ul li a:hover{
-    color: grey;
-}
 
 .btnPedido{
     background-color: 	RGB(10, 40, 60);
@@ -75,7 +72,7 @@ body{
 
 .cabecalho{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/capa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/dwayne-joe-KF8-bXHbHlM-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -146,11 +143,12 @@ section.cardapio{
 }
 
 .itemCardapio{
-    max-width: 290px;
+    max-width: 280px;
     height: 270px;
+    padding: 30px;
     color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 5px 5px RGB(10, 40, 60);
+    box-shadow: 0 0 10px 5px RGB(10, 40, 60);
     
 }
 
@@ -203,6 +201,9 @@ section.cardapio{
 
 /*===Section Sobre===*/
 section.sobre{
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/servico3.jpg);
+    background-position: center;
+    background-size: cover;
     margin: 3% 0;
 }
 
@@ -248,9 +249,10 @@ section.sobre{
 /*====GALERIA====*/
 section#principal{
     margin: 5% 0;
-    background-color: #ffffffe7;
+    background-color: #161616;
 }
 .conteudoGaleria{
+    max-width: 85%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -263,15 +265,16 @@ section#principal{
     font-size: 28px;
     position: relative;
     display: inline-block;
-    color: RGB(10, 40, 60);
+    color: #ffffff;
 }
+
 
 .tituloGaleria::after{
 content: "";
 position: absolute;   
 width: 25%;
 height: 5px;
-background-color: #000000;
+background-color: grey;
 }
 
 
@@ -280,17 +283,17 @@ background-color: #000000;
     border-radius: 30px 30px 0 0;
     transition-duration: 1s;
     max-width: 400px;
-    height: 450px;
+    height: 400px;
     
 }
 
 .info:hover {
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 3px RGB(10, 40, 60)
 }
 
 .info img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-radius: 5px;
 }
 
@@ -315,7 +318,7 @@ background-color: #000000;
 
 .horario p {
     margin-left: 10px;
-    color: #000000;
+    color: #d7d6d6;
 }
 
 
