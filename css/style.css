@@ -17,7 +17,6 @@ body{
     font-size: 38px;
     text-align: center;
     
-
 }
 
 
@@ -45,6 +44,7 @@ body{
     cursor: pointer;
 }
 
+
 .logo {
     height: 110px;
     margin: 15px;
@@ -56,10 +56,10 @@ body{
     color: #ffffff;
     text-decoration: none;
     margin-right: 30px;
-    font-size: 15px;
+    font-size: large;
     padding: 10px 15px;
     border: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 500;
 }
 
@@ -72,7 +72,7 @@ body{
 
 .cabecalho{
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/dwayne-joe-KF8-bXHbHlM-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/WhatsApp\ Image\ 2025-08-18\ at\ 15.19.19.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -104,7 +104,7 @@ input {
 }
 
 .btnSearch{
-    font-size: 17px;
+    font-size: large;
     margin: 0 5px;
     padding: 10px;
     background-color: RGB(10, 40, 60);
@@ -122,7 +122,6 @@ input {
 /*===CARDAPIO===*/
 section.cardapio{
     padding: 5% 0;
-    margin: auto;
     color: #ffffff;
     
 }
@@ -138,18 +137,19 @@ section.cardapio{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    margin: auto;
+    gap: 25px;
+    padding: 30px 0;
+    flex-wrap: wrap;
 }
 
 .itemCardapio{
-    max-width: 280px;
-    height: 270px;
-    padding: 30px;
+    width: 250px;
+    height: 260px;
+    padding: 25px;
     color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 10px 5px RGB(10, 40, 60);
-    
+    box-shadow: 0 0 5px 5px RGB(10, 30, 50);
 }
 
 .itemCardapio:hover{
@@ -157,39 +157,35 @@ section.cardapio{
     transition-duration: .1s;
 }
 
-.ConteudoCardapio{
-    padding: 15px;
-}
 
 
 .tituloCardapio{
-    font-size: 20px;
+    font-size: 25px;
     padding: 15px 0;
 }
 
 .emoji{
-    font-size: 60px;
-    text-align: center;
-    padding-top: 15px;
+    font-size: 63px;
+    padding-top: 10px;
     color: #ffffffa9;
 }
 
 .textoItemCardapio{
-    font-size: 15px;
     color: #d7d6d6ee;
+    text-align: justify;
 }
 
 
 .btnCardapio {
-    margin: 15px 0;
-
+    margin: 20px 0;
+    font-size: large;
 }
 
 .btnCardapio button{
-    padding: 10px;
+    padding: 13px;
     border: 0;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 600;
     background-color: RGB(10, 40, 60);
     color: #ffffff;
 }
@@ -200,41 +196,45 @@ section.cardapio{
 }
 
 /*===Section Sobre===*/
-section.sobre{
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/imagens/servico3.jpg);
-    background-position: center;
+section#sobre{
+    padding: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .9)), url(/imagens/sobre2.jpeg);
     background-size: cover;
-    margin: 3% 0;
+    background-position: center;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.842);
 }
 
 .containerSobre{
-    max-width: 70%;
-    height: 500px;
-    margin: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-}
-
-.imagemSobre img{
-    height: 400px;
-    border-radius: 8px;
+    align-items: center;
+    max-width: 75%;
+    height: 600px;
+    margin: auto;
+    gap: 80px;
 }
 
 .textoSobre{
+    font-size: 18px;
     line-height: 25px;
-    padding: 25px;
     text-align: justify;
-    margin-top: 50px;
+    padding-top: 25px;
+}
+
+.imagemSobre img{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
 }
 
 
 .btnSobre{
-    margin: 20px 0;
-    padding: 15px 30px;
     background-color: RGB(10, 40, 60);
     border: 0;
+    font-size: large;
+    margin: 15px 0;
+    padding: 10px;
     border-radius: 5px;
     color: #ffffff;
     font-weight: 600;
@@ -248,8 +248,8 @@ section.sobre{
 
 /*====GALERIA====*/
 section#principal{
-    margin: 5% 0;
-    background-color: #161616;
+    background-color: #000000;
+    box-shadow: 0px 0px 2px rgba(128, 128, 128, 0.842);
 }
 .conteudoGaleria{
     max-width: 85%;
@@ -274,7 +274,7 @@ content: "";
 position: absolute;   
 width: 25%;
 height: 5px;
-background-color: grey;
+background-color: RGB(30, 60, 80);
 }
 
 
@@ -284,7 +284,6 @@ background-color: grey;
     transition-duration: 1s;
     max-width: 400px;
     height: 400px;
-    
 }
 
 .info:hover {
@@ -326,6 +325,7 @@ background-color: grey;
 section.formulario{
     background-color: #000000;
     color: #d7d6d6;
+    padding: 30px;
 
 }
 
@@ -371,6 +371,7 @@ form .btn-enviar input {
     width: 90px;
     margin-bottom: 25px;
     padding: 10px 0px;
+    font-size: large;
     background-color: RGB(10, 40, 60);
     color: #ffffff;
     font-weight: 600;
